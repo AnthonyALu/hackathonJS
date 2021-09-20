@@ -3,5 +3,24 @@
     "axios": "^0.21.4",
     "quickchart-js": "^1.4.2",
     "stream-chat": "^4.2.0"
-  }
+  },
+  "name": "hackathonjs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/Dashboard/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasSaltis/hackathonJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicholasSaltis/hackathonJS/issues"
+  },
+  "homepage": "https://github.com/NicholasSaltis/hackathonJS#readme"
 }
