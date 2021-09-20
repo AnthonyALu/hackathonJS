@@ -1,4 +1,5 @@
 const QuickChart = require('quickchart-js');
+const axios = require('axios').default;
 
 const myChart = new QuickChart();
 myChart
