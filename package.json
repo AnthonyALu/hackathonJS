@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "quickchart-js": "^1.4.2",
     "stream-chat": "^4.2.0"
   }
 }
