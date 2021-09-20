@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></link>
+    <link rel="stylesheet" href="./static/style.css">
+    <title>Stream Chat App </title>
+</head>
+<body>
+    <section class="msger">
+        <header class="msger-header">
+          <div class="msger-header-title">
+            <i class="fas fa-comment-alt"></i> Stream Chat App
+            <p id="count"></p>
+          </div>
+          <div class="msger-header-options">
+            <span><i class="fas fa-cog"></i></span>
+          </div>
+        </header>
+      
+        <main class="msger-chat">
+          <p id="loading">Loading...</p>
+            <ul id="left-msg"></ul>
+            <ul id="right-msg"></ul>
+        </main>
+      
+        <div class="msger-inputarea">
+          <input type="text" class="msger-input" id="message-input" placeholder="Enter your message...">
+        </div>
+        <p id="info"></p>
+      </section>
+
+      <script src="./../dashboard.bundle.js" type="module">
+      </script>
+
+</script>
+</body>
+</html>
